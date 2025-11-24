@@ -9,8 +9,7 @@ import java.util.List;
  * Represents a course entity in the Student Course Registration System
  * This class provides course management functionality for MVC architecture
  * 
- * @author Muhammad Kashan Tariq
- * @version 1.0
+ * @author Abdain Tariq Khokhar * @version 1.0
  * @since 2025-10-27
  */
 public class Course {
