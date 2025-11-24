@@ -13,8 +13,7 @@ import com.studentregistrationsystem.service.UserService;
 import java.util.List;
 import java.util.ArrayList;
 
-/**
- * StudentController
+/**terterterte
  * Handles HTTP requests and responses for student-related operations
  * Implements the Controller layer in MVC architecture
  * 
