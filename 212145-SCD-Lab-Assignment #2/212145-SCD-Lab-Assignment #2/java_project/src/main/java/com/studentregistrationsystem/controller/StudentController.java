@@ -17,7 +17,7 @@ import java.util.ArrayList;
  * Handles HTTP requests and responses for student-related operations
  * Implements the Controller layer in MVC architecture
  * 
- * @author Muhammad Kashan Tariq
+ * @author Adeel Hussain
  * @version 1.0
  * @since 2025-10-27
  */
