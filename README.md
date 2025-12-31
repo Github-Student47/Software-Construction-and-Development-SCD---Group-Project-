@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # University Student Management System (USMS)
 
 ## 🎓 Software Construction and Development - Term Project
@@ -327,3 +328,7 @@ This project is for educational purposes as part of the Software Construction an
 ---
 
 **© 2025 Software Construction and Development - All Rights Reserved**
+=======
+# Software-Construction-and-Development-SCD---Group-Project-
+Group Memebers Include: Muhammad Kashan Tariq (212145), Abdain Tariq (221855), Adeel Hussian (221829), Muhammad Touseef (221789)
+>>>>>>> e953b2a2adcd984f3197623ec25688bdd2b2caa4
