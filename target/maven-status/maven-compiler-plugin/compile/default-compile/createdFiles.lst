@@ -1,0 +1,5 @@
+com\scd\project\config\MvcConfig.class
+com\scd\project\model\Student.class
+com\scd\project\controller\StudentController.class
+com\scd\project\dao\StudentDAOImpl.class
+com\scd\project\dao\StudentDAO.class

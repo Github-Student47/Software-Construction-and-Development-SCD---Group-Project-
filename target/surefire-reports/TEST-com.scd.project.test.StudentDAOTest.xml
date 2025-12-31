@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.scd.project.test.StudentDAOTest" time="0.082" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="netbeans.deploy" value="true"/>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\MKATW\OneDrive\Desktop\SCD - LAB - Project\USMS_Project_Tomcat10\USMS_Project\target\test-classes;C:\Users\MKATW\OneDrive\Desktop\SCD - LAB - Project\USMS_Project_Tomcat10\USMS_Project\target\classes;C:\Users\MKATW\.m2\repository\org\springframework\spring-webmvc\6.0.13\spring-webmvc-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-aop\6.0.13\spring-aop-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-beans\6.0.13\spring-beans-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-core\6.0.13\spring-core-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-jcl\6.0.13\spring-jcl-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-expression\6.0.13\spring-expression-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-web\6.0.13\spring-web-6.0.13.jar;C:\Users\MKATW\.m2\repository\io\micrometer\micrometer-observation\1.10.12\micrometer-observation-1.10.12.jar;C:\Users\MKATW\.m2\repository\io\micrometer\micrometer-commons\1.10.12\micrometer-commons-1.10.12.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-jdbc\6.0.13\spring-jdbc-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-tx\6.0.13\spring-tx-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-context\6.0.13\spring-context-6.0.13.jar;C:\Users\MKATW\.m2\repository\com\mysql\mysql-connector-j\8.2.0\mysql-connector-j-8.2.0.jar;C:\Users\MKATW\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\MKATW\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.0.0\jakarta.servlet-api-6.0.0.jar;C:\Users\MKATW\.m2\repository\jakarta\servlet\jsp\jakarta.servlet.jsp-api\3.0.0\jakarta.servlet.jsp-api-3.0.0.jar;C:\Users\MKATW\.m2\repository\jakarta\servlet\jsp\jstl\jakarta.servlet.jsp.jstl-api\3.0.0\jakarta.servlet.jsp.jstl-api-3.0.0.jar;C:\Users\MKATW\.m2\repository\jakarta\el\jakarta.el-api\5.0.0\jakarta.el-api-5.0.0.jar;C:\Users\MKATW\.m2\repository\org\glassfish\web\jakarta.servlet.jsp.jstl\3.0.1\jakarta.servlet.jsp.jstl-3.0.1.jar;C:\Users\MKATW\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\MKATW\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MKATW\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\MKATW\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\MKATW\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\MKATW\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="exec.appArgs" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="user.country.format" value="001"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\MKATW\AppData\Local\Temp\surefire11775338261284114915\surefirebooter-20251231135140877_3.jar C:\Users\MKATW\AppData\Local\Temp\surefire11775338261284114915 2025-12-31T13-51-40_711-jvmRun1 surefire-20251231135140877_1tmp surefire_0-20251231135140877_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="exec.vmArgs" value=""/>
+    <property name="surefire.test.class.path" value="C:\Users\MKATW\OneDrive\Desktop\SCD - LAB - Project\USMS_Project_Tomcat10\USMS_Project\target\test-classes;C:\Users\MKATW\OneDrive\Desktop\SCD - LAB - Project\USMS_Project_Tomcat10\USMS_Project\target\classes;C:\Users\MKATW\.m2\repository\org\springframework\spring-webmvc\6.0.13\spring-webmvc-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-aop\6.0.13\spring-aop-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-beans\6.0.13\spring-beans-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-core\6.0.13\spring-core-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-jcl\6.0.13\spring-jcl-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-expression\6.0.13\spring-expression-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-web\6.0.13\spring-web-6.0.13.jar;C:\Users\MKATW\.m2\repository\io\micrometer\micrometer-observation\1.10.12\micrometer-observation-1.10.12.jar;C:\Users\MKATW\.m2\repository\io\micrometer\micrometer-commons\1.10.12\micrometer-commons-1.10.12.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-jdbc\6.0.13\spring-jdbc-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-tx\6.0.13\spring-tx-6.0.13.jar;C:\Users\MKATW\.m2\repository\org\springframework\spring-context\6.0.13\spring-context-6.0.13.jar;C:\Users\MKATW\.m2\repository\com\mysql\mysql-connector-j\8.2.0\mysql-connector-j-8.2.0.jar;C:\Users\MKATW\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\MKATW\.m2\repository\jakarta\servlet\jakarta.servlet-api\6.0.0\jakarta.servlet-api-6.0.0.jar;C:\Users\MKATW\.m2\repository\jakarta\servlet\jsp\jakarta.servlet.jsp-api\3.0.0\jakarta.servlet.jsp-api-3.0.0.jar;C:\Users\MKATW\.m2\repository\jakarta\servlet\jsp\jstl\jakarta.servlet.jsp.jstl-api\3.0.0\jakarta.servlet.jsp.jstl-api-3.0.0.jar;C:\Users\MKATW\.m2\repository\jakarta\el\jakarta.el-api\5.0.0\jakarta.el-api-5.0.0.jar;C:\Users\MKATW\.m2\repository\org\glassfish\web\jakarta.servlet.jsp.jstl\3.0.1\jakarta.servlet.jsp.jstl-3.0.1.jar;C:\Users\MKATW\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\MKATW\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\MKATW\.m2\repository\org\mockito\mockito-core\5.3.1\mockito-core-5.3.1.jar;C:\Users\MKATW\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\MKATW\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.4\byte-buddy-agent-1.14.4.jar;C:\Users\MKATW\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MKATW"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\MKATW\OneDrive\Desktop\SCD - LAB - Project\USMS_Project_Tomcat10\USMS_Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MKATW\AppData\Local\Temp\surefire11775338261284114915\surefirebooter-20251231135140877_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="MKATW"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Tools and Utilities\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\MKATW\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MKATW\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\MKATW\OneDrive\Desktop\SCD - LAB - Project\USMS_Project_Tomcat10\USMS_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Tools and Utilities\netbeans\bin;C:\Tools and Utilities\Apache\apache-tomcat-10.1.50\bin;C:\Program Files\Git\cmd;C:\Tools and Utilities\Apache\apache-ant-1.10.15\bin;C:\Users\MKATW\AppData\Local\Microsoft\WindowsApps;C:\Tools and Utilities\Microsoft VS Code\bin;C:\Tools and Utilities\Antigravity\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testStudentFourParamConstructor" classname="com.scd.project.test.StudentDAOTest" time="0.011"/>
+  <testcase name="testStudentNullHandling" classname="com.scd.project.test.StudentDAOTest" time="0"/>
+  <testcase name="testStudentEqualsById" classname="com.scd.project.test.StudentDAOTest" time="0"/>
+  <testcase name="testStudentThreeParamConstructor" classname="com.scd.project.test.StudentDAOTest" time="0"/>
+  <testcase name="testStudentDefaultConstructor" classname="com.scd.project.test.StudentDAOTest" time="0"/>
+  <testcase name="testStudentIdRange" classname="com.scd.project.test.StudentDAOTest" time="0"/>
+  <testcase name="testStudentToString" classname="com.scd.project.test.StudentDAOTest" time="0.002"/>
+  <testcase name="testStudentAllFields" classname="com.scd.project.test.StudentDAOTest" time="0"/>
+  <testcase name="testStudentModelValidation" classname="com.scd.project.test.StudentDAOTest" time="0.001"/>
+  <testcase name="testStudentSettersAndGetters" classname="com.scd.project.test.StudentDAOTest" time="0"/>
+  <testcase name="testStudentNameLength" classname="com.scd.project.test.StudentDAOTest" time="0.001"/>
+  <testcase name="testStudentEdgeCases" classname="com.scd.project.test.StudentDAOTest" time="0.001"/>
+  <testcase name="testStudentEmailFormat" classname="com.scd.project.test.StudentDAOTest" time="0"/>
+</testsuite>
